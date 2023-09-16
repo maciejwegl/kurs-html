@@ -17,26 +17,28 @@
         <input type="email" name="email" id="email" required> <br>
 
         <label for="phone">Numer tel.</label>
-        <input type="phone" name="phone" id="phone"> <br>
+        <input type="tel" name="phone" id="phone"> <br>
 
-        <select name="city-select">Wybierz miasto
-            <option value="Krakow">Kraków</option>
-            <option value="Warszawa">Warszawa</option>
-            <option value="Gdansk" selected>Gdańsk</option>
-        </select> <br>
+        <label for="city-select">Wybierz miasto
+            <select name="city-select" id="city-select">
+                 <option value="Krakow">Kraków</option>
+                 <option value="Warszawa">Warszawa</option>
+                 <option value="Gdansk" selected>Gdańsk</option>
+                
+            </select>
+        </label> <br>
 
-        <label for="gender"><input type="radio" name="gender">Kobieta </label> <br>
-        <label for="gender"><input type="radio" name="gender">Mężczyzna</label> <br>
-        <label for="gender"><input type="radio" name="gender">Nie deklaruję</label> <br>
+        <label><input type="radio" name="gender">Kobieta</label> <br>
+        <label><input type="radio" name="gender">Mężczyzna</label> <br>
+        <label><input type="radio" name="gender">Nie deklaruję</label> <br>
 
         <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych
-            <input type="checkbox" name="agreement" required>
+            <input type="checkbox" name="agreement" id="agreement" required>
         </label><br>
 
-        <label for="message"><textarea name="message" id="message" placeholder="Napisz wiadomość"></textarea></label> <br>
+        <label><textarea name="message" placeholder="Napisz wiadomość"></textarea></label> <br>
 
         <input type="submit" value="Wyślij zgłoszenie">
-
 
 
     </form>
