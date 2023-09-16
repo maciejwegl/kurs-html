@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/moqollbw" method="post">
+        <label for="first-name">Imię</label>
+        <input type="text" name="first-name" id="first-name" required> <br>
+
+        <label for="last-name">Nazwisko</label>
+        <input type="text" name="last-name" id="last-name" required> <br>
+
+        <label for="email">Adres e-mail</label>
+        <input type="email" name="email" id="email" required> <br>
+
+        <label for="phone">Numer tel.</label>
+        <input type="phone" name="phone" id="phone"> <br>
+
+        <select name="city-select">Wybierz miasto
+            <option value="Krakow">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdansk" selected>Gdańsk</option>
+        </select> <br>
+
+        <label for="gender"><input type="radio" name="gender">Kobieta </label> <br>
+        <label for="gender"><input type="radio" name="gender">Mężczyzna</label> <br>
+        <label for="gender"><input type="radio" name="gender">Nie deklaruję</label> <br>
+
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych
+            <input type="checkbox" name="agreement" required>
+        </label><br>
+
+        <label for="message"><textarea name="message" id="message" placeholder="Napisz wiadomość"></textarea></label> <br>
+
+        <input type="submit" value="Wyślij zgłoszenie">
+
+
+
+    </form>
+    
+</body>
+</html>
